@@ -7,7 +7,7 @@ else
 endif
 
 # if use mac
-# LDFLAGS := -lrt -flto -fuse-ld=gold
+LDFLAGS := -lrt -flto -fuse-ld=gold
 
 all: sizes pointer swap
 
